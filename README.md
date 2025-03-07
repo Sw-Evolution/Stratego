@@ -3,12 +3,12 @@
 
 A continuación se adjunta el ``README.md`` original de este repositorio, tal como se incluye en el [repositorio original](https://github.com/nuttywhal/stratego).
 
-Para clonar esta versión directamente en su repositorio privado, existen varias alternativas, pero la más sencilla es hacer simplemente lo siguiente (asumiendo que el repositorio destino se llama [https://github.com/Sw-Evolution/19EXX](https://github.com/Sw-Evolution/)):
+Para clonar esta versión directamente en su repositorio privado, existen varias alternativas, pero la más sencilla es hacer simplemente lo siguiente (asumiendo que el repositorio destino se llama [https://github.com/Sw-Evolution/25EXX](https://github.com/Sw-Evolution/)):
 
     $ git clone git://github.com/Sw-Evolution/Stratego.git
     $ cd Stratego
     $ git remote remove origin
-    $ git remote add origin https://github.com/Sw-Evolution/19EXX.git
+    $ git remote add origin https://github.com/Sw-Evolution/25EXX.git
     $ git push -u origin master
 
 De modo que se inicia el repositorio privado (no se puede hacer directamente un *fork* del repositorio público) con la versión completa del repositorio original, y poniendo esta misma versión como *commit* inicial, sin "arrastrar" la historia antigua del repositorio original (que sigue estando disponible en éste, por si alguien quisiera consultarla).
